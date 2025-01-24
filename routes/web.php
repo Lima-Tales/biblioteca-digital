@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+<<<<<<< HEAD
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,4 +22,9 @@ Route::get('/talesteste', function () {
 });
 Route::get('/biblioteca', function () {
     return view('biblioteca');
+=======
+route::get('/', function () {
+    return view('welcome');
+
+>>>>>>> 821e922 (terceira semana)
 });

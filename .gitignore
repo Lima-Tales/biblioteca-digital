@@ -3,7 +3,10 @@
 /public/storage
 /storage/*.key
 /vendor
+<<<<<<< HEAD
 .env.example
+=======
+>>>>>>> 821e922 (terceira semana)
 .env
 .env.backup
 .phpunit.result.cache
