@@ -1,0 +1,9 @@
+/* Definir a imagem de fundo */
+body {
+    background-image: url('/images/fundo.jpg'); /* Caminho da imagem */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-attachment: fixed; /* Faz a imagem ficar fixa enquanto a página rola */
+    height: 100vh; /* Altura total da tela */
+
+    }
