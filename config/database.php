@@ -91,27 +91,7 @@ return [
             'prefix_indexes' => true,
         ],
 
-<<<<<<< HEAD
-=======
-        'bibliotecauc7' => [
-    'driver' => 'mysql', // ou o tipo de banco de dados que você está usando
-    'host' => env('DB_HOST', '127.0.0.1'),
-    'port' => env('DB_PORT', '3306'),
-    'database' => env('DB_DATABASE', 'nome_do_banco'), // substitua pelo nome do seu banco de dados
-    'username' => env('DB_USERNAME', 'usuario'), // substitua pelo seu nome de usuário
-    'password' => env('DB_PASSWORD', 'senha'), // substitua pela sua senha
-    'unix_socket' => env('DB_SOCKET', ''),
-    'charset' => 'utf8mb4',
-    'collation' => 'utf8mb4_unicode_ci',
-    'prefix' => '',
-    'prefix_indexes' => true,
-    'strict' => true,
-    'engine' => null,
-],
-
-
->>>>>>> 821e922 (terceira semana)
-    ],
+     ],
 
     /*
     |--------------------------------------------------------------------------
